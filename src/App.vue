@@ -6,7 +6,9 @@
                 @click="selectedComponent = 'AppRevolution'">Revolution</button>
         <button class="button primary rounded small" 
                 @click="selectedComponent = 'AppWomenPower'">Women Power</button>
-        <component :is="selectedComponent"></component>
+        <keep-alive>
+          <component :is="selectedComponent"></component>
+        </keep-alive>
       </div>
     </div>
   </div>
