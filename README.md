@@ -1,4 +1,4 @@
-# advanced-component-usage
+# wonderful-quotes-vue
 
 > Just another project to learn Advanced component usage in Vue.js
 
